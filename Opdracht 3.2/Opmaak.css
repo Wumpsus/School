@@ -5,6 +5,7 @@ background-color: gray;
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
+    text-align: center;
   }
 
 p {
@@ -14,12 +15,44 @@ p {
 /* Style for the input boxes */
 input[type="text"],
 input[type="password"],
+input[type="email"],
 select {
-    background-color: darkgray; /* Change this color to your desired background color */
-    color: white; /* Change this color to your desired text color */
+    background-color: darkgray;
+    color: white;
     padding: 10px;
     width: 100%;
     border: none;
     margin-bottom: 10px;
     box-sizing: border-box;
+}
+
+/* Style for labels */
+label {
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the container */
+.container {
+    background-color: grey; /* Change this color to your desired background color */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 400px; /* Adjust the width as needed */
+}
+
+/* Style for buttons */
+button.boeking {
+    background-color: dodgerblue; /* Change this color to your desired button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.boeking:hover {
+    background-color: #0074cc; /* Change this color to your desired hover color */
 }
