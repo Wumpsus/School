@@ -12,7 +12,7 @@ p {
     margin: 0;
     padding: 0;
 }
-/* Style for the input boxes */
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -26,25 +26,20 @@ select {
     box-sizing: border-box;
 }
 
-/* Style for labels */
 label {
     color: white;
     font-weight: bold;
 }
-
-/* Style for the container */
 .container {
-    background-color: grey; /* Change this color to your desired background color */
+    background-color: grey;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 0 auto;
-    max-width: 400px; /* Adjust the width as needed */
+    max-width: 400px;
 }
-
-/* Style for buttons */
 button.boeking {
-    background-color: dodgerblue; /* Change this color to your desired button color */
+    background-color: dodgerblue;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -54,5 +49,5 @@ button.boeking {
 }
 
 button.boeking:hover {
-    background-color: #0074cc; /* Change this color to your desired hover color */
+    background-color: #0074cc;
 }
