@@ -1,5 +1,5 @@
 body{
-background-color: gray;
+background-color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,12 +23,20 @@ table, th, td {
 
 td {
   position: relative;
+  padding: 10px;
 }
 img {
+  max-width: 100%;
   position: absolute;
   left: 0;
   top: 0;
 }
 p {
-  margin-left: 80px;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+th {
+  color: orange;
+  font-weight: bold;
 }
