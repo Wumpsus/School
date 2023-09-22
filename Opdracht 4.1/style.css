@@ -29,4 +29,40 @@ h1 {
     color: #8A2BE2;
     text-decoration: none;
   }
-  
+
+header {
+  width: 100vw;
+  min-height: calc(33vh - 20px);
+  background-image: url('img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+
+header h1, header p {
+  color: whitesmoke;
+}
+
+
+article {
+  border: 2px solid #8A2BE2;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+
+article img {
+  width: 50vw;
+}
+
+
+article::before {
+  content: '';
+  border-left: 4px solid #8A2BE2;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} 
