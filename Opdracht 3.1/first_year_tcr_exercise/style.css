@@ -12,6 +12,9 @@ body {
 
 nav {
   display: flex;
+  position: flex;
+  top: 0;
+  z-index: 100;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
@@ -25,6 +28,8 @@ nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+  padding: 0;
+  justify-content: center;
 }
 nav li {
   font-size: 2.5rem;
@@ -44,6 +49,10 @@ body {
   background-attachment: fixed; 
   background-position: center;
   background-color: black;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 .centered-text {
   color: white;
@@ -57,10 +66,33 @@ body {
 }
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 10px;
   background-color: #00a8c7;
   color: white;
   position: absolute;
   bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-text h1,
+.centered-text h2,
+.centered-text p,
+.centered-text h6 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+  float: left;
+}
+nav ul li img {
+  vertical-align: middle;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
