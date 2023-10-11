@@ -1,0 +1,36 @@
+BODY {
+    background-color: whitesmoke;
+  }
+  
+  A:visited {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  A:active {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  ul#yippie li a {
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    line-height: 40px;
+  }
+  
+  ul#yippie li {
+    float: left;
+  }
+  
+  ul#yippie {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
