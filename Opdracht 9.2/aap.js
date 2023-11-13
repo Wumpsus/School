@@ -1,5 +1,5 @@
-var openEyes = document.getElementById("opened")
-var closeEyes = document.getElementById("closed")
+var openEyes = document.getElementById("Open")
+var closeEyes = document.getElementById("Dicht")
 
 
 openEyes.onclick = function() {
