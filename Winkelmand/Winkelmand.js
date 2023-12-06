@@ -48,3 +48,10 @@ document.getElementById("opdracht9").innerHTML = `<p>Oude winkelmand: ${oudeWink
 // Opdracht 10
 winkelmandje.sort();
 document.getElementById("opdracht10").innerHTML = `<p>Gesorteerde winkelmand: ${winkelmandje.join(", ")}</p>`;
+// Opdracht 11
+const opdracht11Container = document.getElementById("opdracht11");
+opdracht11Container.innerHTML = "<p>Producten in uw winkelmand  :</p>";
+
+for (let i = 0; i < winkelmandje.length; i++) {
+    opdracht11Container.innerHTML += `<p>${i + 1}. ${winkelmandje[i]}</p>`;
+}
