@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bankrekening Simulator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bankrekening Simulator</h1>
+    <label for="gebruikerSelect">Selecteer Gebruiker:</label>
+    <select id="gebruikerSelect">
+        <option value="gebruiker1">Gebruiker 1</option>
+        <!-- Voeg hier meer opties toe -->
+    </select>
+    <p id="saldo">Huidig Saldo: </p>
+    <input type="number" id="transactieInvoer" value="500">
+    <button id="stortKnop">Storten</button>
+    <button id="opneemKnop">Opnemen</button>
+    <h2>Transactiegeschiedenis:</h2>
+    <ul id="transactieGeschiedenis">
+        <!-- Transactiegeschiedenis zal hier worden toegevoegd -->
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>
